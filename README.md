@@ -40,7 +40,7 @@ The analysis integrates **chemical–gene–disease associations** with **protei
 
 The global PPI network reveals dense molecular connectivity among genes shared between heavy metal exposure and neurological disorders, indicating coordinated regulatory interactions.
 
-![Global PPI Network](Results_img/global_network_commongenes.png)
+![Global PPI Network](Git_Hub/Results_img/global_network_commongenes'.svg)
 
 ---
 
