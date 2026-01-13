@@ -100,9 +100,9 @@ These findings indicate conserved molecular mechanisms linking heavy metal expos
 
 ## 👁️ How to Use This Repository
 
-- Browse **`Results_img/`** for final visual summaries  
-- Open **`.cys` files in Cytoscape** for interactive network exploration  
-- Use **Excel and CSV files** for downstream analysis or validation  
+- Browse **`Git_Hub/Results_img`** for final visual summaries  
+- Open **`Git_Hub/Cytoscaoe_visual` files in Cytoscape** for interactive network exploration  
+- Use **Git_Hub/String_data** for downstream analysis or validation  
 - Reference identified hub genes and pathways for hypothesis generation  
 
 ---
@@ -110,8 +110,6 @@ These findings indicate conserved molecular mechanisms linking heavy metal expos
 ## 📌 Scope & Status
 
 - Repository contains **data, figures, and network files only**
-- No executable code is included
-- Intended for **scientific reference, visualization, and ongoing research**
 
 ---
 
