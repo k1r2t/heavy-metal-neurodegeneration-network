@@ -67,7 +67,7 @@ BCL2, IFNG, PTGS2, PPARG, HMOX1
 
 The disease–gene interaction network highlights shared hub gene associations across multiple neurological disorders, supporting a common molecular framework underlying heavy metal–induced neurotoxicity.
 
-![Disease–Gene Interaction Network](Git_Hub/Results_img)
+![Disease–Gene Interaction Network](Git_Hub/Results_img/gene_disease.png)
 
 ---
 
