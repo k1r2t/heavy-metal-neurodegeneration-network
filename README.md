@@ -1,51 +1,121 @@
 # Computational Network-Based Identification of Heavy Metal–Associated Hub Genes and Pathways in Neurodegenerative Disorders
 
-## Overview
-This repository contains data, network files, and results supporting a computational toxicogenomics study investigating how heavy metal exposure contributes to neurodegenerative and neurodevelopmental disorders through shared molecular networks.
+---
 
-The analysis integrates curated chemical–gene–disease associations with protein–protein interaction networks to identify central hub genes and conserved biological pathways associated with heavy metal neurotoxicity.
+## 🔍 Overview
 
-## Diseases Studied
-- Alzheimer’s disease (AD)
-- Parkinson’s disease (PD)
-- Amyotrophic Lateral Sclerosis (ALS)
-- Multiple Sclerosis (MS)
-- Autism Spectrum Disorder / ADHD
+This repository provides **data, network files, and visual results** from a computational toxicogenomics study investigating how **heavy metal exposure** contributes to **neurodegenerative and neurodevelopmental disorders** through **shared molecular interaction networks**.
 
-## Heavy Metals Analyzed
-- Lead (Pb)
-- Mercury (Hg)
-- Cadmium (Cd)
-- Chromium (Cr)
-- Arsenic (As)
-- Zinc (Zn)
+The analysis integrates **chemical–gene–disease associations** with **protein–protein interaction (PPI) networks** to identify **central hub genes** and **conserved biological pathways** implicated in heavy metal–induced neurotoxicity.
 
-## Workflow Summary
-1. Gene–disease–chemical associations were retrieved from the Comparative Toxicogenomics Database (CTD).
-2. Shared genes between heavy metals and neurological disorders were identified.
-3. Protein–protein interaction networks were constructed using STRING (confidence ≥ 0.8).
-4. Network visualization and hub gene prioritization were performed in Cytoscape.
-5. Hub genes were ranked using Maximal Clique Centrality (MCC).
-6. Functional enrichment analysis (GO and KEGG) was conducted using STRING.
-7. Findings were validated using peer-reviewed literature.
+---
 
-## Key Findings
-- Identification of 101 shared genes linking heavy metal exposure and neurological disorders.
-- Prioritization of 10 hub genes: TP53, TNF, IL1B, IL10, INS, BCL2, IFNG, PTGS2, PPARG, HMOX1.
-- Enrichment of immune-inflammatory signaling, oxidative stress response, apoptosis, mitochondrial dysfunction, and synaptic regulation pathways.
+## 🧠 Neurological Conditions Analyzed
 
-## Repository Contents
-- `data/`: Curated gene lists and CTD-derived datasets.
-- `network_analysis/`: STRING and Cytoscape network files.
-- `enrichment_analysis/`: KEGG and GO pathway results.
-- `figures/`: High-resolution network and enrichment figures.
-- `poster/`: Conference poster PDF.
-- `supplementary_tables/`: Hub gene and pathway tables.
+- Alzheimer’s disease (AD)  
+- Parkinson’s disease (PD)  
+- Amyotrophic Lateral Sclerosis (ALS)  
+- Multiple Sclerosis (MS)  
+- Autism Spectrum Disorder / ADHD  
 
-## Status
-Manuscript under review / in preparation.  
-This repository supports poster presentation and scientific discussion.
+---
 
-## Contact
-**Author:** Kritika Sharma 
+## ⚙️ Heavy Metals Included
+
+- Lead (Pb)  
+- Mercury (Hg)  
+- Cadmium (Cd)  
+- Chromium (Cr)  
+- Arsenic (As)  
+- Zinc (Zn)  
+
+---
+
+## 🧬 Analysis Workflow (Conceptual Overview)
+
+
+---
+
+## 🌐 Global Protein–Protein Interaction Network
+
+The global PPI network reveals dense molecular connectivity among genes shared between heavy metal exposure and neurological disorders, indicating coordinated regulatory interactions.
+
+![Global PPI Network](Results_img/global_network_commongenes.png)
+
+---
+
+## ⭐ Hub Gene Identification
+
+Hub genes were prioritized using **Maximal Clique Centrality (MCC)**, revealing a tightly connected regulatory core within the network.
+
+**Top 10 hub genes identified:**
+
+TP53, TNF, IL1B, IL10, INS,  
+BCL2, IFNG, PTGS2, PPARG, HMOX1
+
+### STRING-Based Hub Gene Network
+
+![Hub Gene Network](Results_img/hub_gene_STRING.svg)
+
+### MCC Top 10 Hub Gene Ranking
+
+![MCC Top 10 Hub Genes](Results_img/Sheet1_MCC_top10.png)
+
+---
+
+## 🧩 Disease–Gene Interaction Network
+
+The disease–gene interaction network highlights shared hub gene associations across multiple neurological disorders, supporting a common molecular framework underlying heavy metal–induced neurotoxicity.
+
+![Disease–Gene Interaction Network](Results_img/gene_disease.png)
+
+---
+
+## 📊 Functional Enrichment Analysis
+
+GO and KEGG enrichment analyses demonstrate significant overrepresentation of biological pathways related to neuronal damage and disease progression.
+
+### KEGG Pathway Enrichment (Common Genes)
+
+![KEGG Enrichment – Common Genes](Results_img/enrichment_KEGG_common_genes.svg)
+
+### KEGG Pathway Enrichment (Hub Genes)
+
+![KEGG Enrichment – Hub Genes](Results_img/enrichment_KEGG_hubgenes.svg)
+
+**Major enriched biological processes include:**
+- Immune and inflammatory signaling  
+- Oxidative stress response  
+- Apoptosis and mitochondrial dysfunction  
+- Protein homeostasis and synaptic regulation  
+
+These findings indicate conserved molecular mechanisms linking heavy metal exposure to diverse neurological disorders.
+
+---
+
+## 📁 Repository Structure
+
+
+---
+
+## 👁️ How to Use This Repository
+
+- Browse **`Results_img/`** for final visual summaries  
+- Open **`.cys` files in Cytoscape** for interactive network exploration  
+- Use **Excel and CSV files** for downstream analysis or validation  
+- Reference identified hub genes and pathways for hypothesis generation  
+
+---
+
+## 📌 Scope & Status
+
+- Repository contains **data, figures, and network files only**
+- No executable code is included
+- Intended for **scientific reference, visualization, and ongoing research**
+
+---
+
+## 📫 Contact
+
+**Author:** Kritika Sharma  
 **Email:** kritika7475@gmail.com
