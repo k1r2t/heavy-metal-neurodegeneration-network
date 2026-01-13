@@ -33,6 +33,9 @@ The analysis integrates **chemical–gene–disease associations** with **protei
 
 ## 🧬 Analysis Workflow (Conceptual Overview)
 
+CTD → Shared gene identification → STRING PPI construction →  
+Cytoscape network analysis → Hub gene ranking (MCC) →  
+GO & KEGG functional enrichment → Literature validation
 
 ---
 
@@ -40,7 +43,7 @@ The analysis integrates **chemical–gene–disease associations** with **protei
 
 The global PPI network reveals dense molecular connectivity among genes shared between heavy metal exposure and neurological disorders, indicating coordinated regulatory interactions.
 
-![Global PPI Network](Git_Hub/Results_img/global_network_commongenes'.svg)
+![Global PPI Network](Git_Hub/Results_img/global_network_commongenes.svg)
 
 ---
 
@@ -93,6 +96,47 @@ These findings indicate conserved molecular mechanisms linking heavy metal expos
 
 ---
 
+## 📚 Literature Validation
+
+To assess the **biological relevance** of the computationally identified hub genes, a structured **literature validation** was performed using peer-reviewed studies.
+
+The validation evaluates:
+- Reported associations between **hub genes** and neurological disorders  
+- Evidence linking **heavy metals** to neurotoxic mechanisms  
+- Consistency between **network-derived results** and known biological functions  
+
+### 🔎 Validation Highlights
+- Hub genes such as **TP53, TNF, IL1B, IL10, BCL2, PTGS2, and PPARG** are extensively reported in the literature to regulate:
+  - Neuroinflammation  
+  - Oxidative stress  
+  - Mitochondrial dysfunction  
+  - Neuronal apoptosis and survival signaling  
+
+### 📄 Literature Validation Table
+
+A comprehensive **literature validation table** summarizing:
+- Hub gene  
+- Associated neurological disorder  
+- Heavy metal relevance  
+- Biological role  
+- Supporting references  
+
+is provided here:
+
+➡️ **[Literature Validation Table (PDF)](Git_Hub/Literature%20Validation.pdf)**
+
+> *The table consolidates experimental, clinical, and mechanistic evidence supporting the identified hub genes.*
+
+---
+
+## 📑 References
+
+All literature sources used for validation and background research are compiled here:
+
+➡️ **[References (PDF)](Git_Hub/References.pdf)**
+
+---
+
 ## 📁 Repository Structure
 
 
@@ -100,16 +144,18 @@ These findings indicate conserved molecular mechanisms linking heavy metal expos
 
 ## 👁️ How to Use This Repository
 
-- Browse **`Git_Hub/Results_img`** for final visual summaries  
-- Open **`Git_Hub/Cytoscaoe_visual` files in Cytoscape** for interactive network exploration  
-- Use **Git_Hub/String_data** for downstream analysis or validation  
-- Reference identified hub genes and pathways for hypothesis generation  
+- Browse **`Git_Hub/Results_img`** for final network and enrichment visuals  
+- Open **`Git_Hub/Cytoscape_visual`** files in Cytoscape for interactive exploration  
+- Use **`Git_Hub/String_data`** for downstream analysis or independent validation  
+- Refer to **Literature Validation** for biological interpretation support  
 
 ---
 
 ## 📌 Scope & Status
 
-- Repository contains **data, figures, and network files only**
+- Repository contains **data, figures, network files, and literature validation**
+- No executable code is included
+- Intended for **scientific reference and interpretative support**
 
 ---
 
