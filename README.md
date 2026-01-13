@@ -43,7 +43,7 @@ GO & KEGG functional enrichment → Literature validation
 
 The global PPI network reveals dense molecular connectivity among genes shared between heavy metal exposure and neurological disorders, indicating coordinated regulatory interactions.
 
-![Global PPI Network](Git_Hub/Results_img/global_network_commongenes.svg)
+![Global PPI Network](Git_Hub/Results_img/global_network_commongenes'.svg)
 
 ---
 
