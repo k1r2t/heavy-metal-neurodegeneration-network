@@ -55,11 +55,11 @@ BCL2, IFNG, PTGS2, PPARG, HMOX1
 
 ### STRING-Based Hub Gene Network
 
-![Hub Gene Network](Results_img/hub_gene_STRING.svg)
+![Hub Gene Network](Git_Hub/Results_img/hub_gene_STRING.svg)
 
 ### MCC Top 10 Hub Gene Ranking
 
-![MCC Top 10 Hub Genes](Results_img/Sheet1_MCC_top10.png)
+![MCC Top 10 Hub Genes](Git_Hub/Results_img/Sheet1_MCC_top10.png)
 
 ---
 
@@ -77,11 +77,11 @@ GO and KEGG enrichment analyses demonstrate significant overrepresentation of bi
 
 ### KEGG Pathway Enrichment (Common Genes)
 
-![KEGG Enrichment – Common Genes](Results_img/enrichment_KEGG_common_genes.svg)
+![KEGG Enrichment – Common Genes](Git_Hub/Results_img/enrichment_KEGG_common_gene.svg)
 
 ### KEGG Pathway Enrichment (Hub Genes)
 
-![KEGG Enrichment – Hub Genes](Results_img/enrichment_KEGG_hubgenes.svg)
+![KEGG Enrichment – Hub Genes](Git_Hub/Results_img/enrichment_KEGG_hubgene.svg)
 
 **Major enriched biological processes include:**
 - Immune and inflammatory signaling  
